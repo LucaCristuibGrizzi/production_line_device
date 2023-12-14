@@ -1,0 +1,11 @@
+bool        finished
+bool        error
+string      robotName
+string      warehouseName
+string      poseWarehouse
+string      error_type
+int8        faulty_device
+int8        speed
+string[]    colorCodeDetected
+int8        nProduct
+int8        nElements
