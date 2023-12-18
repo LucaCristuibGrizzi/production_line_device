@@ -24,6 +24,7 @@ The package relative of the control of rotating table and the behaviors and stat
 - [rotating_table](https://github.com/LucaCristuibGrizzi/rotating_table "rotating_table")
 - [production_ line_behaviors](https://github.com/LucaCristuibGrizzi/production_line_behaviors "production_line_behaviors")
 
+In the "documents" folder, you can find the [thesis](documents/Thesis.pdf) resulting from this work. This document provides more detailed information about the architecture of the control, the algorithm for handling errors in the production line, and other relevant details.
 
 ## Installation
 
@@ -53,9 +54,9 @@ After recreating the production line layout, the first step is to redefine all t
 
 1. **With Niryo Studio**
 
-2. **With a script that allows moving the robot in jog mode and reading its joint poses.**
+2. **With a script that allows moving the robot in jog mode and reading its joint poses** (check this [file](scripts/Utils/getJointPose.py)).  
 
-For the check assembly operation, it is advisable to perform a calibration to determine optimal thresholding values for the colors.
+For the check assembly operation, it is advisable to perform a calibration to determine optimal thresholding values for the colors. You can use this [script](scripts/Utils/findHSV.py) to calibrate the required HSV values.
 
 The last setup operation to perform is to check and, if needed, change the IP address to connect the PC to the robots. The Ethernet connection is the one chosen for this project, so an Ethernet switch is needed. Each robot has a different IP address, which can be changed with Niryo Studio. The IP addresses are as follows:
 
